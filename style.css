@@ -1,9 +1,11 @@
 .container {
-    width: 100%;
+    width: 40%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile-box {
@@ -13,29 +15,99 @@
     padding: 100px 90px;
     padding-top: 0px;
     color: #ffffff;
-    position: relative;
+
     border-radius: 20px;
+}
+
+.profile-box p {
+    color: #020202
 }
 
 .profile-pix {
     width: 150px;
     border-radius: 50%;
-    background: #05183a;
-    padding: 6px;
+    background: #ffffff;
+    padding: 5px;
     margin-top: 40px;
+    box-shadow: 1px 1px 25px 0.5px #000000;
 }
 
-.description {
+.description-box {
     margin-right: -90px;
     margin-left: -90px;
     margin-bottom: -100px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     text-align: justify;
     background-color: #5c9abe;
+    height: 150px;
+    padding-bottom: 25px;
+    box-shadow: 1px 5px 10px 0.5px #000000;
+}
+
+.description-box p {
+    color: #c9025f;
 }
 
 .media-icons {
-    width: 50px;
-    margin: 10px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+.media-icons p {
+    margin: 0px;
+    padding: 0px;
+
+    /* margin-top: -8px; */
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    /* border: 1px solid rgb(243, 17, 17); */
+
+}
+
+.icon-group {
+    background-color: #1a7dee;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 0px;
+    box-shadow: 1px 1px 10px 0.5px #000000;
+}
+
+.media {
+    width: 50%;
+    /* float: left; */
+    margin: 2px 15px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 200%;
+    /* display: flex; */
+    border: 2px solid #242627;
+}
+
+.fa-whatsapp {
+    color: chartreuse;
+    padding: 0px;
+}
+
+.fa-instagram {
+    color: rgb(240, 5, 103);
+}
+
+.fa-twitter {
+    color: rgb(21, 176, 248);
+}
+
+.fa-facebook {
+    color: rgb(30, 132, 248);
 }
