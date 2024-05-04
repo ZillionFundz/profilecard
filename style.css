@@ -29,7 +29,19 @@
     background: #ffffff;
     padding: 5px;
     margin-top: 40px;
-    box-shadow: 1px 1px 25px 0.5px #000000;
+    box-shadow: 1px 1px 30px 0.8px #b60303;
+}
+
+.big-decorated {
+    font-size: 16px;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+
+.small-decorated {
+    font-size: 14px;
+    font-family: monospace;
+    text-transform: capitalize;
 }
 
 .description-box {
@@ -40,13 +52,14 @@
     border-radius: 0px 0px 20px 20px;
     text-align: justify;
     background-color: #5c9abe;
-    height: 150px;
+    height: 50%;
     padding-bottom: 25px;
     box-shadow: 1px 5px 10px 0.5px #000000;
 }
 
 .description-box p {
     color: #c9025f;
+    font-size: 1rem;
 }
 
 .media-icons {
@@ -69,30 +82,32 @@
 }
 
 hr {
-    /* border: 1px solid rgb(243, 17, 17); */
+    border: 0.2px solid #f31111;
+    margin: 4px;
 
 }
 
 .icon-group {
     background-color: #1a7dee;
+    margin: 0px;
     padding: 15px;
     border-radius: 4px;
-    margin: 0px;
-    box-shadow: 1px 1px 10px 0.5px #000000;
+    box-shadow: 1px 1px 10px 0.5px #744a4a;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .media {
     width: 50%;
-    /* float: left; */
     margin: 2px 15px;
-    padding: 5px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    /* align-items: center; */
+    padding: 10px;
+    background-color: #8d8b8b;
+    border-radius: 15px;
     justify-content: center;
     font-size: 200%;
     /* display: flex; */
-    border: 2px solid #242627;
+    border: 1px solid #242627;
+    box-shadow: 1px 5px 10px 0.5px #333333;
 }
 
 .fa-whatsapp {
@@ -105,9 +120,9 @@ hr {
 }
 
 .fa-twitter {
-    color: rgb(21, 176, 248);
+    color: rgb(10, 182, 250);
 }
 
 .fa-facebook {
-    color: rgb(30, 132, 248);
+    color: rgb(3, 98, 177);
 }
