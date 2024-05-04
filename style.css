@@ -106,7 +106,7 @@ hr {
 .icon-group {
     background-color: #1a7dee;
     margin: 0px;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 4px;
     box-shadow: 1px 1px 10px 0.5px #744a4a;
     margin-left: -8px;
@@ -114,7 +114,7 @@ hr {
 }
 
 .media {
-    margin: 2px 5px;
+    margin: 4px;
     padding: 5px;
     background-color: #8d8b8b;
     border-radius: 10px;
