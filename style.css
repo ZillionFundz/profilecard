@@ -25,9 +25,9 @@ body {
 
 .p-box1 {
     color: #b60303;
-  
-    margin-left: -20px;
-    margin-right: -20px;
+  text-align: center;
+    /*margin-left: -20px;
+    margin-right: -20px;*/
 }
 
 .profile-box h3 {
