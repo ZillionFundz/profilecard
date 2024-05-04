@@ -23,8 +23,9 @@ body {
     border-radius: 20px;
 }
 
-.profile-box p {
+.p-box1 {
     color: #b60303;
+  
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -56,6 +57,7 @@ body {
 .small-decorated {
     font-size: 14px;
     font-family: monospace;
+  font-weight: bold;
     text-transform: capitalize;
     color: #fdbd27;
     font-style: italic;
@@ -77,8 +79,7 @@ body {
 .description-box p {
     color: #000000;
     font-size: 1rem;
-    margin-left: 5px;
-    margin-right: 5px;
+    
 }
 
 .media-icons {
@@ -123,7 +124,7 @@ hr {
     background-color: #8d8b8b;
     border-radius: 10px;
     justify-content: center;
-    font-size: 160%;
+    font-size: 175%;
     width: 50%;
     /* display: flex; */
     border: 2px solid #242627;
