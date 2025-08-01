@@ -11,7 +11,8 @@ body {
   padding: auto;
   display: flex;
   justify-content: flex-end;
-  background: rebeccapurple;
+/*background: rebeccapurple;*/
+  background: #5025d1;
 }
 
 .container {
