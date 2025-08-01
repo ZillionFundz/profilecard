@@ -11,8 +11,8 @@ body {
   padding: auto;
   display: flex;
   justify-content: flex-end;
-/*background: rebeccapurple;*/
-  background: #5025d1;
+background: rebeccapurple;
+/*   background: #5025d1; */
 }
 
 .container {
@@ -121,7 +121,7 @@ body {
 }
 
 hr {
-    border: 1px solid #F5F7FF;
+    border: 1px solid #0166ff;
     margin: 10px 50px;
 }
 
