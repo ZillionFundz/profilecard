@@ -61,7 +61,7 @@ body {
 }
 
 .p-box1 {
-    font-size: clamp(12px, 2vw, 100px);
+    font-size: clamp(16px, 2vw, 100px);
     color: #000;
     text-align: center;
     /*margin-top: 60px;*/
@@ -71,15 +71,15 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: clamp(14px, 2vw, 100px);
     font-weight: 10px;
-    padding: 0px;
-    margin-left: -20px;
-    margin-right: -20px;
+    padding: 5px 0px;
+    /* margin-left: -20px;
+    margin-right: -20px; */
     /*font-family: 'Oswald', serif;*/
     color: rgb(98, 54, 231);
 }
 
 .profile-pix {
-    width: 40%;
+    width: 45%;
     border-radius: 50%;
     background: #ffffff;
     margin: 10px;
@@ -159,6 +159,7 @@ hr {
 
 .icon-box {
     width: 65vw;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,9 +261,9 @@ hr {
         flex-direction: column;
         margin: 0px;
         padding: 5px 5px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         width: 255px;
-        min-height: 300px;
+        min-height: 260px;
         /*border: 1px solid #000;*/
         border-radius: 30px 30px 30px 30px;
         background: rgb(220, 231, 248);
@@ -302,7 +303,7 @@ hr {
 
     .icon-box {
         width: 100%;
-        height: 80px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -317,7 +318,7 @@ hr {
 
     .media-icons {
         width: 100%;
-        /* height: 55px; */
+        height: 55px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -329,15 +330,15 @@ hr {
     }
 
     .media {
-        margin: 4px;
+        margin: 2px;
         padding: 5px;
         background-color: rgb(220, 231, 248);
         border-radius: 10px;
         justify-content: center;
-        font-size: 175%;
-        width: 10vw;
+        font-size: 130%;
+        width: 5vw;
         /* display: flex; */
-        border: 2px solid #242627;
+        border: 1px solid #242627;
         box-shadow: 1px 5px 10px 0.5px #333333;
     }
 }
