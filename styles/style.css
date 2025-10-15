@@ -288,7 +288,7 @@ hr {
     .description-box {
         min-width: 300px;
         height: auto;
-        /* max-width: 450px; */
+        width: 450px;
         padding: 15px;
         border-radius: 30px 30px 30px 30px;
         border-left: none;
