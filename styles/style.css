@@ -384,6 +384,7 @@ hr {
         padding-top: 10px;
         /* padding-bottom: 30px; */
         box-shadow: 1px 1px 10px 0.5px #744a4a;
+        bottom: 0;
     }
 
     .description-box p {
@@ -443,3 +444,4 @@ hr {
         box-shadow: 1px 5px 10px 0.5px #333333;
     }
 }
+
