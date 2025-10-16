@@ -338,7 +338,7 @@ hr {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        /*gap: 20px;*/
+        gap: 35px;
         margin: 0px;
         padding: 0px;
         background: none;
@@ -443,4 +443,3 @@ hr {
         box-shadow: 1px 5px 10px 0.5px #333333;
     }
 }
-
