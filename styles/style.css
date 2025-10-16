@@ -335,7 +335,7 @@ hr {
 
     .profile-box {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
         gap: 20px;
@@ -437,7 +437,7 @@ hr {
         background-color: rgb(220, 231, 248);
         border-radius: 10px;
         justify-content: center;
-        font-size: 130%;
+        font-size: 128%;
         width: 5vw;
         /* display: flex; */
         border: 1px solid #242627;
