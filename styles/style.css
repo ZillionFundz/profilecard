@@ -100,7 +100,7 @@ body {
 
 .status-box {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     /* position: relative; */
     margin: 0px;
