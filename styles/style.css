@@ -342,7 +342,7 @@ hr {
         margin: 0px;
         padding: 0px;
         background: #0166ff;
-        border-radius: 10px;
+        border-radius: 30px 30px 0px 0px;
     }
 
     .pix-and-title {
@@ -361,7 +361,7 @@ hr {
     }
 
     .profile-pix {
-        width: 20vw;
+        width: 22vw;
         border-radius: 50%;
         background: #ffffff;
         margin: 5px;
@@ -372,11 +372,11 @@ hr {
 
 
     .description-box {
-        min-width: 95vw;
+        min-width: 100vw;
         /* width: 320px; */
         height: auto;
         padding: 15px;
-        border-radius: 30px 30px 30px 30px;
+        border-radius: 30px 30px 0px 0px;
         border-left: none;
         border-top: 5px solid #000;
         text-align: justify;
