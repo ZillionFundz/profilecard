@@ -114,8 +114,8 @@ body {
     background-color: #0dfa05;
     color: #000;
     outline: 1px dashed #000;
-    top: 34px;
-    right: 30px;
+    top: 30px;
+    right: 28px;
     /* backdrop-filter: blur(10px); */
     opacity: 1;
 }
