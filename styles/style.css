@@ -25,7 +25,7 @@ body {
     align-items: center;
     flex-direction: column;
     max-width: 940px;
-    background: #F5F7FF;
+    background: #cbd0e7;
     min-height: 100vh;
     padding: 0px 20px;
 }
@@ -46,8 +46,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 30px;
     margin: 0px;
-    padding: 20px 0px;
+    padding: 10px 0px;
     min-width: 250px;
     max-width: 30vw;
     min-height: 375px;
@@ -221,7 +222,7 @@ body {
 
 .description-box p {
     color: #fff;
-    font-size: clamp(16px, 1.5vw, 100px);
+    font-size: clamp(16px, 1.45vw, 100px);
     line-height: 26px;
 }
 
@@ -325,11 +326,10 @@ hr {
         align-items: center;
         flex-direction: column;
         /* width: 500px; */
-        min-width: 100vw;
+        width: 100vw;
         margin: 0px;
         text-align: center;
-
-        background: #F5F7FF;
+        background: #cbd0e7;
         min-height: 100vh;
     }
 
